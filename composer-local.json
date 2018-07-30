@@ -1,14 +1,14 @@
 {
 	"name": "planet4-eu-unit/planet4-eu-unit",
-	"version": "0.0.1",
+	"version": "1.0.1",
 
 	"require": {
-		"greenpeace/planet4-child-theme" : "dev-develop",
-		"greenpeace/planet4-master-theme" : "dev-develop",
-		"greenpeace/planet4-plugin-blocks" : "dev-develop"
+		"greenpeace/planet4-child-theme-eu-unit" : "dev-develop",
+		"greenpeace/planet4-plugin-migrated-urls": "0.0.1"
 	},
 
 	"scripts": {
-		"site:custom" : []
+		"install:plugin-wpimport": "wp plugin install --activate https://raw.githubusercontent.com/greenpeace/planet4-3rdparty-plugins/master/wp-all-import-pro_4.5.4.zip",
+		"site:custom" : ["@install:plugin-wpimport"]
 	}
 }
