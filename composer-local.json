@@ -1,13 +1,11 @@
 {
 	"name": "planet4-eu-unit/planet4-eu-unit",
-
+	"description": "Greenpeace P4 Eu Unit",
+	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-child-theme-eu-unit" : "dev-develop",
-		"greenpeace/planet4-plugin-migrated-urls": "0.0.1"
+		"greenpeace/planet4-child-theme-eu-unit" : "0.*"
 	},
-
 	"scripts": {
-		"install:plugin-wpimport": "wp plugin install --activate https://raw.githubusercontent.com/greenpeace/planet4-3rdparty-plugins/master/wp-all-import-pro_4.5.4.zip",
-		"site:custom" : ["@install:plugin-wpimport"]
+		"site:custom" : []
 	}
 }
