@@ -1,11 +1,12 @@
 {
-    "name": "planet4-eu-unit/planet4-eu-unit",
-    "description": "Greenpeace P4 Eu Unit",
-    "license": "MIT",
-    "require": {
-        "greenpeace/planet4-child-theme-eu-unit" : "dev-main"
-    },
-    "scripts": {
-        "site:custom" : []
-    }
+  "name": "planet4-eu-unit/planet4-eu-unit",
+  "description": "Greenpeace P4 Eu Unit",
+  "license": "MIT",
+  "require": {
+    "greenpeace/planet4-child-theme-eu-unit" : "dev-main",
+    "greenpeace/planet4-master-theme" : "dev-rel-footer-icons"
+  },
+  "scripts": {
+    "site:custom" : []
+  }
 }
